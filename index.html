@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>คำนวณพื้นที่วงกลม</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h2>คำนวณพื้นที่วงกลม</h2>
+    <!-- แบบฟอมวงกลม -->
+    <form id="circleForm">
+      <label for="radius">ใส่ค่า รัศมี (r):</label>
+      <input type="number" step="any" id="radius" placeholder="กรอกค่ารัศมี" required>
+      <input type="submit" value="คำนวณ">
+    </form>
+    <div class="result" id="result"></div>
+  </div>
+
+  <script src="calculate.js"></script>
+</body>
+</html>

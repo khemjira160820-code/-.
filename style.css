@@ -1,0 +1,60 @@
+body {
+        background: url('img/คำนวณพื้นที่วงกลมพื้นหลัง.jpg'); 
+            background-size: cover;
+            
+        font-family: Arial, sans-serif;
+        background-color: #1e1e2f; 
+        color: #c9c9c9; 
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
+
+    /* กล่องฟอร์ม */
+    .container {
+        background:rgb(38, 38, 48);
+        padding: 40px 50px;
+        border-radius: 30px;
+        box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.3);
+        text-align: center;
+        width: 300px;
+    }
+
+    h2 {
+        margin-bottom: 40px;
+        color: #4fa8ff; 
+    }
+
+    /* ปุ่มและอินพุต */
+    input[type="number"], input[type="submit"] {
+        width: 100%;
+        padding: 10px;
+        margin-top: 15px;
+        border: 2px solid #555; 
+        border-radius: 40px;
+        font-size: 18px;
+        background-color: #3c3c4f; 
+        color: #c9c9c9; 
+    }
+
+    input[type="submit"] {
+        background-color: #4fa8ff; 
+        color: #fff; 
+        cursor: pointer;
+        text-align: center;
+    }
+
+    input[type="submit"]:hover {
+        background-color: #3c7fbf; 
+    }
+
+    /* ผลลัพธ์ */
+    .result {
+        margin-top: 30px;
+        font-size: 18px;
+        color: #c9c9c9; 
+        text-align: center;
+    }
